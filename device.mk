@@ -186,6 +186,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.sys.fuse.passthrough.enable=true
 
+# FM
+BOARD_HAVE_QCOM_FM := true
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss-V1-ndk_platform.vendor
