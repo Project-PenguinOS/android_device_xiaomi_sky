@@ -586,6 +586,7 @@ vendor/lib64/libsdmutils.so
 
 # Displayfeature
 vendor/bin/displayfeature
+vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
 vendor/lib64/hw/displayfeature.default.so
 vendor/lib64/libdisplayfeature.so
 vendor/lib64/libdisplayfeatureservice.so
