@@ -51,6 +51,7 @@ PRODUCT_ODM_PROPERTIES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.audio.auto.scenario=true \
+    ro.audio.monitorRotation=true \
     ro.config.alarm_vol_steps=15 \
     ro.config.system_vol_steps=15 \
     ro.config.vc_call_vol_default=9 \
