@@ -69,6 +69,9 @@ function blob_fixup() {
 	vendor/lib64/libhme.so)
             "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
             ;;
+        vendor/etc/qcril_database/upgrade/config/6.0_config.sql)
+            sed -i '/persist.vendor.radio.redir_party_num/ s/true/false/g' "${2}"
+            ;;
     esac
 }
 
