@@ -116,10 +116,6 @@ PRODUCT_PACKAGES += \
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-# Device Settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # Display / Graphics
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.config-V2-ndk_platform.vendor \
